@@ -10,9 +10,11 @@
 		}
 	],
 	"require"   : {
-		"php": ">=5.3"
+		"composer/installers": "1.*",
+		"php": ">=5.3",
+		"ivaynberg/select2": "dev-master"
 	},
 	"autoload": {
-    "files": ["custom-meta-boxes.php"]
-  }
+    	"files": ["custom-meta-boxes.php"]
+	}
 }
